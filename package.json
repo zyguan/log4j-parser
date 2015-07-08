@@ -1,0 +1,14 @@
+{
+  "name": "hlparser",
+  "version": "0.1.0-dev",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zyguan",
+  "dependencies": {
+    "q": "^1.4.1",
+    "sax": "^1.1.1"
+  }
+}

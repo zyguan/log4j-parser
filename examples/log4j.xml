@@ -1,0 +1,30 @@
+<log4j:event logger="org.apache.hadoop.hdfs.server.namenode.NameNode" timestamp="1436146862872" level="INFO" thread="main">
+<log4j:message><![CDATA[STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = zbt/127.0.0.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.20-dev
+STARTUP_MSG:   build = git://zbt/ on branch metrics -r 4ef4f2a2aef91c00fc36d008228c2ca6fd044424; compiled by 'zyguan' on Fri Jul  3 13:59:07 CST 2015
+************************************************************/]]></log4j:message>
+<log4j:locationInfo class="org.apache.hadoop.util.StringUtils" method="startupShutdownMessage" file="StringUtils.java" line="540"/>
+</log4j:event>
+
+<log4j:event logger="org.apache.hadoop.ipc.metrics.RpcMetrics" timestamp="1436146862941" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing RPC Metrics with hostName=NameNode, port=9000]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.hadoop.hdfs.server.namenode.NameNode" timestamp="1436146862946" level="INFO" thread="main">
+<log4j:message><![CDATA[Namenode up at: 192.168.1.92/192.168.1.92:9000]]></log4j:message>
+<log4j:locationInfo class="org.apache.hadoop.hdfs.server.namenode.NameNode" method="initialize" file="NameNode.java" line="197"/>
+</log4j:event>
+
+<log4j:event logger="org.apache.hadoop.metrics.jvm.JvmMetrics" timestamp="1436146862948" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing JVM Metrics with processName=NameNode, sessionId=null]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics" timestamp="1436146862951" level="INFO" thread="main">
+<log4j:message><![CDATA[Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.file.FileContext]]></log4j:message>
+<log4j:locationInfo class="org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics" method="&lt;init&gt;" file="NameNodeMetrics.java" line="100"/>
+</log4j:event>
+
