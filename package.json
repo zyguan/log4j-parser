@@ -1,5 +1,5 @@
 {
-  "name": "hlparser",
+  "name": "log4j-parser",
   "version": "0.1.0-dev",
   "private": true,
   "main": "index.js",
